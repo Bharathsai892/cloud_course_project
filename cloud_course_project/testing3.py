@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 
-# Function to parse the XML file and extract vehicle traces
 def parse_traces(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
